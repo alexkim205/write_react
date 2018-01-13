@@ -1,0 +1,3 @@
+rootProject.name = 'write_react'
+
+include ':app'
