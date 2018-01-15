@@ -19,13 +19,13 @@ const listitems = [
   {
     key: "Last7Days",
     title: "Last 7 Days",
-    leftIcon: "clock",
+    leftIcon: "clock", //"Icons.clock-o",
     underlayColor: "#dedede"
   },
   {
     key: "Trash",
     title: "Trash",
-    leftIcon: "trash",
+    leftIcon: "trash",//"Icons.trash-o",
     underlayColor: "#dedede"
   }
 ];

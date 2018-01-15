@@ -7,7 +7,7 @@ import {
   Animated,
   StyleSheet
 } from "react-native";
-import FontAwesome, { Icons } from "react-native-fontawesome";
+import Icon from "../node_modules/react-native-vector-icons/SimpleLineIcons";
 
 const _width = Dimensions.get("window").width;
 
@@ -31,13 +31,7 @@ class CustomListItem extends Component {
         >
           <View style={{ flexDirection: "row", alignItems: "center", flex: 1 }}>
             <View>
-              <FontAwesome>{Icons.chevronLeft}</FontAwesome>
-              {/* <Icon
-                name={leftIcon}
-                size={25}
-                color="#3294ff"
-                style={{ marginRight: 13 }}
-              /> */}
+              <Icon name={leftIcon} size={25} color="#4F8EF7" />
             </View>
             <View
               style={{
